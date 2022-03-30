@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1 id="nav-title">Profile</h1>
+        
+        <ul class="nav-links">
+            <li><a href="https://www.youtube.com/watch?v=BZ4bQsrbVRU" target="blank">Home</a></li>
+            
+            <li><a href="https://www.youtube.com/watch?v=VgqpNY9A2Fo" class="active" target="blank">My Profile</a></li>
+            
+            <li><a href="https://www.youtube.com/watch?v=AhZ03_9IL8Q" target="blank">Find Connections</a></li>
+            
+            <li><button class="button">Sign Out</button></li>
+        </ul>
+    </div>
+    
+    <div class="container">
+        <div class="left">
+            <div class="profile">
+                <div class="top-bar"></div>
+                <img class="user" src="./assets/jane-m.jpg" alt="Jane Picture" width="80">
+                
+                <h1>Jane Doe</h1>
+                
+                <img src="./assets/map-marker.png" alt="Map Marker" width="10">
+                <p>Seattle</p>
+                <br>
+                <p><span>Developer | Engineer | Problem Solver Master of shadows and the internet!</span></p>
+                <!-- <br> -->
+                <img class="gear" src="./assets/gear.png" alt="Gear Picture" width="15">
+                <a href="#" onclick="change()">edit profile</a>
+            </div>
+            
+            <div class="education">
+                <div class="edu-topbar">Education</div>
+                <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                <p class="date">Dec 2019 - Mar 2020</p>
+                <br>
+                <br>
+                <p>Triple black belt in Python, MERN, and C#</p>
+            </div>
+        </div>
+        
+        <div class="right">
+            <div class="connect-req">
+                <div class="req-topbar">
+                    <div id="two-circle">2</div>
+                    Connection Requests
+                </div>
+                
+                <div id="request1">
+                    <img class="person" src="./assets/todd-s.jpg" alt="Todd Picture" width="55">
+                    <p class="names">Todd E</p>
+                    <div class="icon1">
+                        <button onclick="remove1()"><img class="icons" src="./assets/accept-circle.png" alt="Accept Circle" width="30"></button>
+                        <button onclick="remove3()"><img class="icons" src="./assets/close-circle.png" alt="Close Circle" width="30"></button>
+                    </div>
+                </div>
+                
+                <div id="request2">    
+                    <img class="person" src="./assets/phil-s.jpg" alt="Phil Picture" width="55">
+                    <p class="names">Phil K</p>
+                    <div class="icon1">
+                        <button onclick="remove2()"><img class="icons" src="./assets/accept-circle.png" alt="Accept Circle" width="30"></button>
+                        <button onclick="remove4()"><img class="icons" src="./assets/close-circle.png" alt="Close Circle" width="30"></button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="your-connect">
+                <div class="connect-topbar">
+                    <div id="plus-circle">471</div>
+                    Your Connections
+                </div>
+                
+                <div class="friend">
+                    <img class="person" src="./assets/adrien-s.jpg" alt="Adrien Picture" width="55">
+                    Adrien D
+                </div>
+                <div class="friend">
+                    <img class="person" src="./assets/anne-s.jpg" alt="Anne Picture" width="55">
+                    Anne J
+                </div>
+                <div class="friend">
+                    <img class="person" src="./assets/alayne-s.jpg" alt="Alayne Picture" width="55">
+                    Alayne T
+                </div>
+                <div class="friend">
+                    <img class="person" src="./assets/arry-s.jpg" alt="Arry Picture" width="55">
+                    Arry Y
+                </div>
+                
+                <div class="view-more">
+                    <a href="https://www.youtube.com/watch?v=Q_5HCPgFgW8" target="blank">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

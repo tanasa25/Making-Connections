@@ -1,0 +1,357 @@
+.profile{
+    border-color: #cbcbcb;
+    border-style: solid;
+    /* border: 10px; */
+    width: 600px;
+    /* display: flex; */
+    /* position: absolute;
+    top: 115px;
+    left: 440px; */
+    background-color: white;
+    /* justify-content: center; */
+    padding: 0px 0px 20px 0px;
+    border-top: 0px;
+    border-width: 3px;
+    border-radius: 2px;
+    margin-bottom: 35px;
+}
+
+.top-bar{
+    background-color: #17a2b7;
+    width: 606px;
+    height: 90px;
+    /* display: inline-block; */
+    /* position: absolute;
+    top: 45px; */
+    /* left: 434px; */
+    margin-left: -3px;
+    border-radius: 2px;
+}
+
+img.user{
+    /* position: absolute; */
+    top: 0px;
+    margin-left: 20px;
+    margin-top: -40px;
+    border-radius: 50%;
+}
+
+p{
+    display: inline;
+    margin-left: 5px;
+    font-size: 18px;
+    /* margin-top: -3px; */
+
+}
+
+span{
+    display: block;
+    width: 280px;
+    font-size: 16px;
+    margin-left:20px;
+    margin-bottom: 10px;
+}
+
+.profile img{
+    margin-left:20px;
+    /* margin-top: -5px; */
+}
+
+h1 {
+    margin-left: 14px;
+    margin-top: -2px;
+}
+
+a{
+    color: #2b78e4;
+    margin-top: -2px;
+}
+/* ^^^Profile Section^^^ */
+
+.left{
+    float: left;
+    /* display: flex; */
+    width: 600px;
+    margin-right: 15px;
+}
+
+.right{
+    float: right;
+    /* display: flex; */
+    width: 380px;
+    margin-left: 15px;
+}
+
+.container{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+img{
+    border-radius: 50%;
+    /* margin-left: -10px;
+    margin-right: 10px; */
+}
+
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+/* vvv Navigation Bar vvv */
+.navbar{
+    background-color: black;
+    display: flex;
+    /* justify-content: space-around; */
+    padding-left: 193px;
+    padding-right: 215px;
+    /* padding-top: 0px; */
+    height: 65px;
+    border-radius: 3px;
+    color:white;
+    margin: -8px -9px 35px -9px;
+    align-items: center;
+    width: 1033px;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    /* list-style-type: none; */
+    margin-right: 30px;
+    color: #bbbbbb;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.navbar .nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.button{
+    background-color: #17a2b8;
+    width: 75px;
+    border-color: black;
+    box-shadow: 3px 2px black;
+    font-size: 13px;
+    height: 25px;
+    border-width: 3px;
+    cursor: pointer;
+    /* padding: 5px; */
+    color:white;
+    margin-left: 445px;
+    /* justify-content: flex-end; */
+}
+
+.navbar .active{
+    color:white;
+}
+
+.navbar a:hover{
+    color: pink;
+}
+
+.button:active{
+    transform: translateY(3px);
+}
+
+.button:hover{
+    background-color: #41b2c4;
+}
+
+#nav-title{
+    align-items: center;
+    display: flex;
+    /* margin-top: 30px; */
+    margin-bottom: -1px;
+}
+
+/* vvv Education Section vvv */
+.education{
+    border-style: solid;
+    border-color: #cbcbcb;
+    border-width: 3px;
+    /* width: 600px; */
+    padding-left: 25px;
+    /* overflow: hidden; */
+    padding-bottom: 10px;
+}
+
+.edu-topbar{
+    background-color: #333333;
+    width: 582px;
+    margin-left: -28px;
+    margin-top: -2px;
+    height: 45px;
+    /* align-items: center; */
+    padding: 15px 0px 0px 20px;
+    font-size: 19px;
+    color: white;
+    border-radius: 2px;
+}
+
+p.date{
+    color:#bbbbbb;
+    /* margin-top: -7px; */
+}
+
+
+/* vvv Connection Request vvv */
+.connect-req{
+    border-style: solid;
+    border-color: #cbcbcb;
+    border-width: 3px;
+    margin-bottom: 35px;
+    /* padding-left: 20px; */
+    /* display: flex; */
+}
+
+.req-topbar{
+    background-color: #333333;
+    color: white;
+    display: flex;
+    height: 45px;
+    padding: 15px 0px 0px 10px;
+    font-size: 19px;
+    width: 372px;
+    border-radius: 2px;
+    margin-left: -3px;
+    margin-top: -2px;
+}
+
+#two-circle{
+    background-color: #cbcbcb;
+    width: 35px;
+    height:32px;
+    text-align: center;
+    border-radius: 50%;
+    align-items: center;
+    padding: 2px 0px 0px 0px;
+    margin-right: 10px;
+    margin-top: -4px;
+    color:#333333;
+}
+
+#request1{
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    /* margin-left: 15px; */
+    align-items: center;
+}
+
+#request1 button{
+    background-color: white;
+    border-style: none;
+}
+
+.icon1{
+    display: flex;
+    align-items: center;
+}
+
+#request1 img.person{
+    margin-left: 25px;
+    margin-right: -20px;
+}
+
+.icons{
+    width:35px;
+    height: 35px;
+    /* justify-content: flex-end; */
+    /* display: flex; */
+    margin-right: 15px;
+}
+
+p.names{
+    /* margin-left: 70px; */
+    margin-right: 100px;
+    font-size: 16px;
+}
+
+#request2{
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    align-items: center;
+}
+
+#request2 button{
+    background-color: white;
+    border-style: none;
+}
+
+#request2 button{
+    background-color: white;
+    border-style: none;
+}
+
+
+/* vvv Connections Section vvv */
+.your-connect{
+    border-style: solid;
+    border-color: #cbcbcb;
+    border-width: 3px;
+    align-items: center;
+    /* text-align: justify; */
+}
+
+.view-more{
+    border-style: solid;
+    border-color: #cbcbcb;
+    border-width: 2px;
+    border-bottom: #cbcbcb;
+    border-left: #cbcbcb;
+    border-right: #cbcbcb;
+    padding: 10px 10px 10px 20px;
+}
+
+.connect-topbar{
+    background-color: #333333;
+    color: white;
+    display: flex;
+    height: 45px;
+    padding: 15px 0px 0px 10px;
+    font-size: 19px;
+    width: 372px;
+    border-radius: 2px;
+    margin-left: -3px;
+    margin-top: -2px;
+}
+
+#plus-circle{
+    background-color: #cbcbcb;
+    border-radius: 50%;
+    width: 52px;
+    height: 35px;
+    padding-left: 3px;
+    padding-top: 3px;
+    color: #333333;
+    text-align: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: -4px;
+}
+
+.friend{
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.your-connect img.person{
+    margin-right: 20px;
+}
